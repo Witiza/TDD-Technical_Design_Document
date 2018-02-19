@@ -1,3 +1,10 @@
+## Things the page should have:
+What is a TDD and what is it used for
+Difference between TDD and GDD
+TDD part analysis.
+Our TDD.
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Witiza/TDD-Technical_Design_Document/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
