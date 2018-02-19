@@ -1,9 +1,52 @@
 ## Things the page should have:
-What is a TDD and what is it used for
-Difference between TDD and GDD
-TDD part analysis.
-Our TDD.
+- What is a TDD and what is it used for
+- Difference between TDD and GDD
+- TDD part analysis.
+- Our TDD.
 
+# What's a Tech Design Document
+
+A TDD is a organic document created by a studio when working on a project. Its function is to set standards to the coding style and structure, normalize workflows and data management, and have a list of all the software that will be used during the project, while providing a general overview of the project to any member of the team. Even though the document is mainly used for coding and engineering purposes, it can fit the specific needs of the team such as acting as an art gallery, or including a calendar with the milestones.
+
+# Differences between TDD and GDD
+
+Both a Tech Design Document and a Game Design Document serve a similar purpose, explaiin how the game is done. But unlike the GDD, that explains the mentioned game from a designer point of view, the TDD does it from an engineer point of view, explaining how mechanics should be coded, instead of how they are balanced, and, in general, leaving behind all the subjective points, and centering only in the engineering and technology behind the game
+
+# TDD Essential Parts
+- Summary: Acts as an introduction to the TDD, and an overview of the project, both from design point of view and tech point of view
+
+- Hardware and Software: List of all the software that will be used, and its purpose. The minimal Hardware needed can be written here too.
+
+- Programming: The core of the TDD, even more important as we are doing a project without using an engine. The level of specification is up to the team, but this section should include at least: 
+  - UML: Various UML diagrams about the game structure and hierarchy (UI, entities, modules)
+  - ode style: Concepts such as variable and function naming, spacing, structure should be defined here.
+  - Branching Policy: This section defines how branches are going to be used. A different branch for each member, new feature, etc...
+  - Version Lists: How each version is going to be labelled.
+  - External Libraries: Which external libraries are going to be used, and their purpose.
+  - Build Delivery method: Explain how each build is going to be delivery, the system, the time, and the team member.
+
+- Data sharing: Which programs are going to be used to share each type of data between de members. Data sharing policies.
+
+- File Formats and naming: Specify the different file formats that are going to be used when sharing data, and their purpose. Set rules to how files should be labelled. These can be as specific as the team desires.
+
+- Goals and risks: Describe what are the technical goals, the goals of the project, and the goals once the project is finished. The risks that this goals might imply need to be mentioned too.
+
+- Changelog: Page with all the changes to the TDD, the date, and the member that has done the changes.
+
+## Additional parts
+- Features from the GDD: A more extensive summary of the GDD, that includes features that might afect the development of the project
+
+- Level layouts: The scheme of the different levels and how they should be navigated. Level specific code or other observations need to be mentioned here
+
+- Asset lists: A list with the names and images(opional) of all the assets that will be used. Asset specific code or other observations need to be mentioned here.
+
+- Development plan: A description of the development calendar and milestone plan of the team. Member-specifi tasks related to code can be described here.
+
+- Definitions, acronyms and abreviations: All the previously mentioned should figure here with their meaning.
+
+- References: All the other webpages or videogames used to elaborate the TDD.
+
+- Asset 
 
 ## Welcome to GitHub Pages
 
