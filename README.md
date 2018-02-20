@@ -1,3 +1,8 @@
+“I am [Lorién Portella López](https://www.linkedin.com/in/lori%C3%A9n-portella-2144b2159/), student of the
+[Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s
+subject Project 2, under supervision of lecturer
+[Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).”
+
 ## Things the page should have:
 - What is a TDD and what is it used for
 - Difference between TDD and GDD
