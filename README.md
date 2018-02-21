@@ -12,7 +12,7 @@ Having your project well documented and the goals stablished since the beggining
 
 Both a Tech Design Document and a Game Design Document serve a similar purpose, explaining how the game is done. But unlike the GDD, that explains the mentioned game from a designer point of view, the TDD does it from an engineer point of view, explaining how mechanics should be coded, instead of how they are balanced, and, in general, leaving behind all the subjective points, and centering only in the engineering and technology behind the game.
 
-# TDD Essential Parts
+# TDD Essential Sections
 - Summary: Acts as an introduction to the TDD, and an overview of the project, both from design point of view and technology point of view.
 
 - Goals and risks: 
@@ -39,7 +39,7 @@ When describing the goals, we also need to describe the risks or problems that t
 
 - Changelog: Page with all the changes to the TDD, the date, and the member that has done the changes.
 
-## Additional parts
+## Additional Features
 - Features from the GDD: A more extensive summary of the GDD, that includes features that might afect the development of the project
 
 - Level layouts: The scheme of the different levels and how they should be navigated. Level specific code or other observations need to be mentioned here
