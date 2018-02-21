@@ -1,11 +1,11 @@
-“I am [Lorién Portella López](https://www.linkedin.com/in/lori%C3%A9n-portella-2144b2159/), student of the
-[Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s
-subject Project 2, under supervision of lecturer
-[Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).”
+## About me:
+I am [Lorién Portella López](https://www.linkedin.com/in/lori%C3%A9n-portella-2144b2159/), student of the
+[Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s subject Project 2, under supervision of lecturer [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).
 
 # What's a Tech Design Document and why it is important
 
 A TDD is a organic document created by a studio when facing a new project. Its function is to set standards to the coding style and structure, normalize workflows and data management, and have a list of all the software that will be used during the project with its purpose, while providing a general overview of the project to any member of the team. Even though the document is mainly used for coding and engineering purposes, it can fit the specific needs of the team such as acting as an art gallery, or including a calendar with the milestones.
+
 Having your project well documented and the goals stablished since the beggining is essential, because without it, there will be conflicts and misunderstandings within the team, as everyone has their different ideas on how the game needs to be done, and when it needs to be finished. Also, as various programmers will be working on the same code, having a standarized coding style for everyone will ensure that sections of the code can be shared and exchanged between members without any problems.
 
 # Differences between TDD and GDD
@@ -13,6 +13,7 @@ Having your project well documented and the goals stablished since the beggining
 Both a Tech Design Document and a Game Design Document serve a similar purpose, explaining how the game is done. But unlike the GDD, that explains the mentioned game from a designer point of view, the TDD does it from an engineer point of view, explaining how mechanics should be coded, instead of how they are balanced, and, in general, leaving behind all the subjective points, and centering only in the engineering and technology behind the game.
 
 # TDD Essential Sections
+
 ### Summary:
 Acts as an introduction to the TDD, and an overview of the project, both from design point of view and technology point of view.
 
@@ -45,17 +46,24 @@ Specify the different file formats that are going to be used when sharing data, 
 ### Changelog: 
 Page with all the changes to the TDD, the date, and the member that has done the changes.
 
-# Additional Features
-- Features from the GDD: A more extensive summary of the GDD, that includes features that might afect the development of the project
+### Additional Features
 
-- Level layouts: The scheme of the different levels and how they should be navigated. Level specific code or other observations need to be mentioned here
+The inclusion of this features depends on the project's characteristics and the team preferences. They can be reduced to lists or enumerations, without any extensive explanation. Some of this sections will need to be done with the other members of the team, or checking the GDD or Art/Audio bibles.
 
-- Asset lists: A list with the names and images(opional) of all the assets that will be used. Asset specific code or other observations need to be mentioned here.
+- Features from the GDD: A more extensive summary of the GDD, including features that might afect the development of the project or that need special attention from the coders.
+
+
+- Level layouts: The scheme of the different levels and how they should be navigated from a coding point of view. Level specific code or other observations need to be mentioned here, in order for the coders to recreate the gameplay from the GDD properly.
+
+- Asset lists: This lists should include the different assets that appear through the game. Each one should have a name, an image or concept art, and observations regarding code or other technologies. The assets may be divided in levels.
 
 - Development plan: A description of the development calendar and milestone plan of the team. Member-specifi tasks related to code can be described here.
+A description of the development calendar with each milestone and what needs to be acomplished in each one. Member-specific tasks or milestones related to code or technology can be described here.
 
-- Definitions, acronyms and abreviations: All the previously mentioned should figure here with their meaning.
+- Definitions, acronyms and abreviations: All the previously mentioned should figure here with their meaning, in order to allow everyone to understand any word in the document
 
-- References: All the other webpages or videogames used to elaborate the TDD.
+- References: All the other webpages or videogames used to elaborate the TDD, or other sites of interest.
+
+
 
 
