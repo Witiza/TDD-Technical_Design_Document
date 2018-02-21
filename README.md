@@ -8,9 +8,11 @@ A Tech Design Document is a organic document created by a studio when facing a n
 
 Having your project well documented and the goals stablished since the beggining is essential, because without it, there will be conflicts and misunderstandings within the team, as everyone has their different ideas on how the game needs to be done, and when it needs to be finished. Also, as various programmers will be working on the same code, having a standarized coding style for everyone will ensure that sections of the code can be shared and exchanged between members without any problems.
 
+
 # Differences between TDD and GDD
 
 Both a Tech Design Document and a Game Design Document serve a similar purpose, explaining how the game is done. But unlike the GDD, that explains the mentioned game from a designer point of view, the TDD does it from an engineer point of view, explaining how mechanics should be coded, instead of how they are balanced, and, in general, leaving behind all the subjective points, and centering only in the engineering and technology behind the game.
+
 
 # TDD Essential Sections
 
@@ -47,11 +49,14 @@ The core of the TDD, even more important as we are doing a project without using
   
   - Build Delivery Policies: Explain how each build is going to be delivered, which system is going to be used, the day they are going to be delivered and the team member.
 
+
 ### Data sharing: 
 Specify the system that is going to be used to share data between the team members, including a description for each of the programs that are going to be used in each data type, and the organization of the mentioned data.
 
+
 ### File Formats and naming: 
 Specify the different file formats that are going to be used when sharing data, and their purpose. Set rules to how files should be labelled. These can be as specific as the team desires. 
+
 
 ### Changelog: 
 Page with all the changes to the TDD, the date, and the member that has done the changes.
@@ -59,6 +64,7 @@ Page with all the changes to the TDD, the date, and the member that has done the
 # Additional Features
 
 The inclusion of this features depends on the project's characteristics and the team preferences. They can be reduced to lists or enumerations, without any extensive explanation. Some of this sections will need to be done with the other members of the team, or checking the GDD or Art/Audio bibles.
+
 
 ### Features from the GDD: 
 A more extensive summary of the GDD, including features that might afect the development of the project or that need special attention from the coders.
@@ -79,5 +85,11 @@ All the previously mentioned should figure here with their meaning, in order to 
 All the other webpages or videogames used to elaborate the TDD, or other sites of interest.
 
 
+## Links of interest:
+- [TDD Sample](https://computergamesmmu.files.wordpress.com/2012/10/technical-design-document-final.pdf)
+- [TDD Sample, Narbacular Drop](https://www.digipen.edu/fileadmin/website_data/gallery/game_websites/NarbacularDrop/documents/narbacular_drop_technical_design_document.pdf)
+- [How to make a TDD](https://www.youtube.com/watch?v=iD7s1kqZOGA)
+- [Gamasutra article about design documents](https://www.gamasutra.com/view/feature/131818/the_anatomy_of_a_design_document_.php?page=1)
+- [Why design documents matter](https://www.toptal.com/freelance/why-design-documents-matter)
 
 
