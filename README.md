@@ -3,38 +3,39 @@
 subject Project 2, under supervision of lecturer
 [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).”
 
-## Things the page should have:
-- What is a TDD and what is it used for
-- Difference between TDD and GDD
-- TDD part analysis.
-- Our TDD.
+## What's a Tech Design Document and why it is important
 
-# What's a Tech Design Document
-
-A TDD is a organic document created by a studio when working on a project. Its function is to set standards to the coding style and structure, normalize workflows and data management, and have a list of all the software that will be used during the project, while providing a general overview of the project to any member of the team. Even though the document is mainly used for coding and engineering purposes, it can fit the specific needs of the team such as acting as an art gallery, or including a calendar with the milestones.
+A TDD is a organic document created by a studio when facing a new project. Its function is to set standards to the coding style and structure, normalize workflows and data management, and have a list of all the software that will be used during the project with its purpose, while providing a general overview of the project to any member of the team. Even though the document is mainly used for coding and engineering purposes, it can fit the specific needs of the team such as acting as an art gallery, or including a calendar with the milestones.
+Having your project well documented and the goals stablished since the beggining is essential, because without it, there will be conflicts and misunderstandings within the team, as everyone has their different ideas on how the game needs to be done, and when it needs to be finished. Also, as various programmers will be working on the same code, having a standarized coding style for everyone will ensure that sections of the code can be shared and exchanged between members without any problems.
 
 # Differences between TDD and GDD
 
-Both a Tech Design Document and a Game Design Document serve a similar purpose, explaiin how the game is done. But unlike the GDD, that explains the mentioned game from a designer point of view, the TDD does it from an engineer point of view, explaining how mechanics should be coded, instead of how they are balanced, and, in general, leaving behind all the subjective points, and centering only in the engineering and technology behind the game
+Both a Tech Design Document and a Game Design Document serve a similar purpose, explaining how the game is done. But unlike the GDD, that explains the mentioned game from a designer point of view, the TDD does it from an engineer point of view, explaining how mechanics should be coded, instead of how they are balanced, and, in general, leaving behind all the subjective points, and centering only in the engineering and technology behind the game.
 
 # TDD Essential Parts
-- Summary: Acts as an introduction to the TDD, and an overview of the project, both from design point of view and tech point of view
+- Summary: Acts as an introduction to the TDD, and an overview of the project, both from design point of view and technology point of view.
 
-- Hardware and Software: List of all the software that will be used, and its purpose. The minimal Hardware needed can be written here too.
+- Goals and risks: 
+When doing a project, in addition to explain what the project is about, it is important to talk and set the different goals of the team, as it will help
+- Technical goals: Describe and give a small explanation for any new technology or code innovation that is going to be used in the project.
+- Project goals: What the team wants to reach with this project. This goals can also be named "general goals", as they serve for the entire project.
+- Finished project goals: Any improvements or additional content that could be implemented once the project goals have been acomplished.
+When describing the goals, we also need to describe the risks or problems that this goals may cause. Since we are writing the TDD, a detailed description of the technical goals is key, in order to keep all the members aware, and help to detect this problems earlier.
 
-- Programming: The core of the TDD, even more important as we are doing a project without using an engine. The level of specification is up to the team, but this section should include at least: 
-  - UML: Various UML diagrams about the game structure and hierarchy (UI, entities, modules)
-  - ode style: Concepts such as variable and function naming, spacing, structure should be defined here.
-  - Branching Policy: This section defines how branches are going to be used. A different branch for each member, new feature, etc...
-  - Version Lists: How each version is going to be labelled.
+- Hardware and Software: List of all the software that will be used, and its purpose. Aside from visual studio or engine software, this list should include programs such as Photoshop, Audacity, or even Excel. Also, the minimum and optimal hardware needed to run the game should be listed here. Because the TDD is an organic document, these requirements can be added in an update.
+
+- Programming Policies: The core of the TDD, even more important as we are doing a project without using an engine. The level of specification is up to the team coders, but this section should include at least: 
+  - UML: Various UML diagrams about the game structure and hierarchy (UI, entities, modules). The UML's should include the relevant functions that each module or class is going to use, and should be updated as the development of the game progresses.
+  - Code style: Concepts such as variable and function naming, spacing or structure should be defined here, in order to keep the code homogeneous and readable.
+  - Branching Policy: This section defines the frequency of the branches, and why they should be done.
+  - Comment Policy: Description about when the code should have comments, and the nature of these.
+  - Version Lists and Policy: How each version is going to be labelled, and when do versions change.
   - External Libraries: Which external libraries are going to be used, and their purpose.
-  - Build Delivery method: Explain how each build is going to be delivery, the system, the time, and the team member.
+  - Build Delivery Policies: Explain how each build is going to be delivered, which system is going to be used, the day they are going to be delivered and the team member.
 
-- Data sharing: Which programs are going to be used to share each type of data between de members. Data sharing policies.
+- Data sharing: Specify the system that is going to be used to share data between the team members, including a description for each of the programs that are going to be used in each data type, and the organization of the mentioned data.
 
-- File Formats and naming: Specify the different file formats that are going to be used when sharing data, and their purpose. Set rules to how files should be labelled. These can be as specific as the team desires.
-
-- Goals and risks: Describe what are the technical goals, the goals of the project, and the goals once the project is finished. The risks that this goals might imply need to be mentioned too.
+- File Formats and naming: Specify the different file formats that are going to be used when sharing data, and their purpose. Set rules to how files should be labelled. These can be as specific as the team desires. 
 
 - Changelog: Page with all the changes to the TDD, the date, and the member that has done the changes.
 
@@ -51,42 +52,4 @@ Both a Tech Design Document and a Game Design Document serve a similar purpose, 
 
 - References: All the other webpages or videogames used to elaborate the TDD.
 
-- Asset 
 
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Witiza/TDD-Technical_Design_Document/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Witiza/TDD-Technical_Design_Document/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
