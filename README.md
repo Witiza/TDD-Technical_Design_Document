@@ -19,8 +19,11 @@ Acts as an introduction to the TDD, and an overview of the project, both from de
 
 ### Goals and risks: 
 When doing a project, in addition to explain what the project is about, it is important to talk and set the different goals of the team, as it will help
+
 - Technical goals: Describe and give a small explanation for any new technology or code innovation that is going to be used in the project.
+
 - Project goals: What the team wants to reach with this project. This goals can also be named "general goals", as they serve for the entire project.
+
 - Finished project goals: Any improvements or additional content that could be implemented once the project goals have been acomplished.
 When describing the goals, we also need to describe the risks or problems that this goals may cause. Since we are writing the TDD, a detailed description of the technical goals is key, in order to keep all the members aware, and help to detect this problems earlier.
 
@@ -29,12 +32,19 @@ List of all the software that will be used, and its purpose. Aside from visual s
 
 ### Programming Policies: 
 The core of the TDD, even more important as we are doing a project without using an engine. The level of specification is up to the team coders, but this section should include at least: 
+
   - UML: Various UML diagrams about the game structure and hierarchy (UI, entities, modules). The UML's should include the relevant functions that each module or class is going to use, and should be updated as the development of the game progresses.
+  
   - Code style: Concepts such as variable and function naming, spacing or structure should be defined here, in order to keep the code homogeneous and readable.
+  
   - Branching Policy: This section defines the frequency of the branches, and why they should be done.
+  
   - Comment Policy: Description about when the code should have comments, and the nature of these.
+  
   - Version Lists and Policy: How each version is going to be labelled, and when do versions change.
+  
   - External Libraries: Which external libraries are going to be used, and their purpose.
+  
   - Build Delivery Policies: Explain how each build is going to be delivered, which system is going to be used, the day they are going to be delivered and the team member.
 
 ### Data sharing: 
