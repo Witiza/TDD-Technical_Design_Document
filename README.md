@@ -39,8 +39,8 @@ The core of the TDD, even more important as we are doing a project without using
 ### Data sharing: 
 Specify the system that is going to be used to share data between the team members, including a description for each of the programs that are going to be used in each data type, and the organization of the mentioned data.
 
-### 
-File Formats and naming: Specify the different file formats that are going to be used when sharing data, and their purpose. Set rules to how files should be labelled. These can be as specific as the team desires. 
+### File Formats and naming: 
+Specify the different file formats that are going to be used when sharing data, and their purpose. Set rules to how files should be labelled. These can be as specific as the team desires. 
 
 ### Changelog: 
 Page with all the changes to the TDD, the date, and the member that has done the changes.
