@@ -27,6 +27,7 @@ When doing a project, in addition to explain what the project is about, it is im
 - Project goals: What the team wants to reach with this project. This goals can also be named "general goals", as they serve for the entire project.
 
 - Finished project goals: Any improvements or additional content that could be implemented once the project goals have been acomplished.
+
 When describing the goals, we also need to describe the risks or problems that this goals may cause. Since we are writing the TDD, a detailed description of the technical goals is key, in order to keep all the members aware, and help to detect this problems earlier.
 
 ### Hardware and Software: 
