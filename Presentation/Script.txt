@@ -1,0 +1,83 @@
+"Script"
+
+Slide1-Presentation.
+
+Slide2-Whats a TDD
+Ask to the public.
+A tdd is an organic document that a studio creates when working on a new project. It sets standards to the whole project, ranging from the code style and structure, the aditional programs that are going to be used and its purpose, 
+or the way the data is going to be transfered and labelled.
+It also contains the different workflows that will be used across the project. Finally, it also contains a general overview of the mentioned project. It is basically the document that a new component of the team would be given. 
+It contains mainly technical information, related to the coding and engineering part of the development, but other studio teams can make use of it. For this reason, the TDD can contain additional features to suit the needs of the team,
+such a mini art gallery (if there isnt an art bible), or a calendar with the milestones of each team member.
+
+Having a well written and documented TDD is a key to any development team. Misunderstandings or conflicts will appear within the team, as everyone has different ideas on how the game should be done. 
+In this cases, the TDD will act as a rulebook, as it contains how things should be done, and what are the goals of the project. And this is the last key element of a TDD. By setting and explaining clearly the goals of the project,
+the team can easily know which feature needs to be implemented and which one can be ignored or postponed.
+
+
+Slide3-TDD and GDD
+Similarities: In both cases, the document fulfills the purpose of ordering a big project such a videogame. Are documents written in order to keep all the team on the same track, and as mentioned previously, act as rulebooks. They also
+talk about the project, what it is about, and how it works. 
+
+Differences: Ask the public about differences.
+Lets answer with another question: Which document would you show to an investor? (GDD). the gdd. This is because the gdd describes how the game is going to be played, information that is interesting to the players, and as a result,
+to the investor. The TDD instead, tells how the game works internally, and because of that, is only interesting to the people working  on the project. As an example, if we analyze this picture of mario from a GDD point of view, we could
+talk about the jump mechanic, the height of it, how normal blocks behave, the mushroom that spawns from the question block, and the goomba that can kill the player. We could even analyze how the goomba and the blocks force the player 
+to time his jump, and because of that, he might hit the mushroom block, spawning it. From a TDD point of view instead, we would talk about how collisions are coded, the gravity system, or the fact that a mushroom spawns if the player
+collides with the block.
+
+Slide4-TDD Sections
+Summary: Describes the project in a general view, and then from a technology point of view. Acts as an introduction to the tdd.
+Goals: Very important section. Describes what the team wants to archieve and helps them decide what should be implemented and whatnot. They act similar to the game pillars. They are divided in 
+project goals:what the team wants to acomplish with this game. They should describe more or less the raw finished game.
+Finished project goals: What could be done once the basic game is finished. Extra features, aditional content. Doesn't need to mean DLC. Can be used in small projects such as ours. (manual, tutorial).
+technical goals, that talk about specific technology innovation that is going to be implemented (water physics, collision engine).
+Risks: Something to have in mind when talking about goals (specifically technical goals). Any risks that the engineering team might consider when writing the technical goals. Well described risks help the team stay alert and detect
+problems related earlier, so they can be avoided or solved.
+Hardware and software: A list with all the software that is going to be used during the project, including non-coding related (photoshop), and its purpose. It should also include the price, but lets not talk about it.
+A section with the minimal and recommended hardware to run the game is advised, even though, as we aren't using an engine, the specific hardware can be a bit difficult to determine. Stick with 32 vs 64 bits, and check the cpu and 
+game size
+
+slide5-tdd sections II
+we dont talk about section II
+
+slide6-tdd sections III
+Setting standards on how data sharing is going to be done can help prevent problems such as files lost, or a cloud storage less organized than the code in project II. It isn't done by just saying "we will use google drive" tho. 
+Structuring your file in sub-files, stating when something can be deleted, using files online. There are many options to optimize data sharing, and the level of deepness depends on each team. Another way to optimize data sharing would
+be file naming. Ask public about file naming. See?, in just a couple of minutes, we have thought about a bunch of different naming ideas and styles. It is also important stating the file format for each type of data. Right now, this 
+isn't a deal, but if we were working with 3D modelling, there are even more file types, eachone with its pros and cons.
+Imagine that you are working in your 2d sidescroller with C++, and you wake up one day, just to see that the project is now a fps made with unity. The changelog is the feature that allows us to check all the changes that everyone has
+made to the TDD, remember, its an organic document, and the nature of these changes. It's like the commit system of github but manually. So you can track who changed c++ for unity.
+
+Slide7-additional sections.
+We have talked about the features that should always be included in a tdd. But honestly, the amount of sections, and how long and detailed they are is up to the team. Despite that, I'm going to talk about some aditional features that 
+your tdd could include, so you can tell if you need them or no.
+A small summary with the features from the gdd can be useful if you consider that some of these features require special attention when coding, or if the gdd is so extensive that looking at it would be an annoyance to the coders.
+A calendar or plan of the development. A calendar with milestones or a list of tasks can also come handy to the coders, so they don't need to use the general calendar with such specific information.
+
+
+Slide8-additional sections II
+Once again, this two sections can come handy if other team members consider that what they have done (art or design), need a special attention from the coders. Maybe the level transitions need to be fast, so no map chargin is allowed, 
+or an asset has an special interactions, or it just emmits specific particles. All this small details can be written next to the asset or level, so the engineers dont need to constantly check the gdd or art bible. Additionally, if
+they are in charge of building the level in the game, by just looking at the level layout, and which assets they have avalible, they can prepare the level, once again, without the need of checking an additional document.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
